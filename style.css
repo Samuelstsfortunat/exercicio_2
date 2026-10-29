@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+}
+
+.navbar{
+    background-color: aqua;
+    height: 100px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards{
+    background-color: gray;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.card{
+    background-color: red;
+    color: white;
+    height: 200px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+@media (max-width:60px){
+    .card{
+        background-color: blue;
+    }
+}
